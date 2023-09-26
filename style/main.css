@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    stroke-width: 10px;
+    border-color: black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 20vw;
+    height: auto;
+}
+
+h1{
+    font-family: 'Mooli', sans-serif;
+}
+
+h4{margin: 0;}
+
+#logol{
+    width: 50px;
+    height: auto;
+}
+
+#logor{
+    width: 20px;
+    height: auto;
+}
+
+th{
+    width: 10vw;
+    height: 60px;
+    background-color: grey;
+    color: wheat;
+    padding: 10px;
+}
+
+td{
+    width: 10vw;
+    height: 60px;
+    background-color: beige;
+}
+
+form{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blanks{
+    width: 50vw;
+    height: 30px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.j-center{justify-self: center;}
+.a-center{align-items: center;}
+.col{flex-direction: column;}
+
+.small{
+    width: 10px !important;
+}

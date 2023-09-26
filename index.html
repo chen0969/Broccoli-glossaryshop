@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broccoli's wp-plugin glossaryshop</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css"/>
+</head>
+<body>
+    <header>
+        <div><img id="logol" src="media/logo-l.svg" alt="logo-l"></div>
+        <h1>Broccoli's wp-plugin glossaryshop</h1>
+        <div><img id="logor" src="media/logo-r.svg" alt="logo-r"></div>
+    </header>
+    <main>
+        <div><img src="media/broccoli design.jpg" alt="broccoli design bussiness card" title="broccoli design"/></div>
+        
+        <!-- the table tag in follow. -->
+        <h3>Plugin list</h3>
+        <table>
+            <!-- row1 -->
+            <tr>
+                <th><img id="logol" class="small" src="media/logo-l white.svg" alt="logo-l"><h4>template1</h4></th>
+                <th><img id="logol" class="small" src="media/logo-l white.svg" alt="logo-l"><h4>template2</h4></th>
+                <th><img id="logol" class="small" src="media/logo-l white.svg" alt="logo-l"><h4>template3</h4></th>
+                <th><img id="logol" class="small" src="media/logo-l white.svg" alt="logo-l"><h4>template4</h4></th>
+            </tr>
+            <!-- row2 -->
+            <tr>
+                <td><h5>plugin1</h5></td>
+                <td><h5>plugin2</h5></td>
+                <td><h5>plugin3</h5></td>
+                <td><h5>plugin4</h5></td>
+            </tr>
+        </table>
+
+
+
+        <!-- form tag in follow -->
+        <h3>Connect Sheet</h3>
+        <form action="sheets/connect.txt" method="post">
+            <div class="blanks j-center a-center">
+                <label for="fullname" >your name:</label>
+                <input placeholder="Broccoli Design" id="fullname" type="text" name="name" required>
+            </div>
+            <div class="blanks j-center a-center">
+                <label for="phone" >Phone:</label>
+                <input placeholder="343-988-4869" id="phonen" type="text" name="phone" required>
+            </div>
+
+            <div class="blanks j-center">
+                <label for="selection">Product:</label>
+                <input id="Plugin1" type="radio" name="product" value="plugin1">
+                <label for="Plugin1">Plugin1</label>
+                
+                <input id="Plugin2" type="radio" name="product" value="plugin2">
+                <label for="Plugin2">Plugin2</label>
+                
+                <input id="Plugin3" type="radio" name="product" value="plugin3">
+                <label for="Plugin3">Plugin3</label>
+
+                <input id="Plugin4" type="radio" name="product" value="plugin4">
+                <label for="Plugin4">Plugin4</label>
+            </div>
+            <div class="blanks">
+                <input type="date"/>
+            </div>
+
+                <!-- select tsg in follow -->
+            <div class="blanks">
+                <select id="q-type" name="q-type">
+                    <option value="intro">Intro</option>
+                    <option value="purchese">Purchese</option>
+                </select>
+            </div>
+
+            <div class="blanks">
+                <input type="submit">
+                <input type="reset">
+                <button type="submit">Send out</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
